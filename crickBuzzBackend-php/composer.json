@@ -1,0 +1,16 @@
+{
+  "name": "crickbuzz/match-api",
+  "description": "PHP port of the MatchApi cricket backend",
+  "type": "project",
+  "require": {
+    "php": "^8.2",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "MatchApi\\": "src/"
+    }
+  }
+}
